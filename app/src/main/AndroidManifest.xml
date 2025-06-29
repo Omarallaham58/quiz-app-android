@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".studentActivities.ExamResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentActivities.StudentCourseDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentActivities.ExamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentActivities.StudentBaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".customViews.CourseHistogramView"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.CourseHistogramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentActivities.StudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.StudentDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.UpdateStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.AddStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.ManageStudentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.BaseAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.ViewStudentsByCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.UpdateQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.UpdateCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.ManageQuestionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.ManageCoursesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.CourseDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.AssignStudentToCourse"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.AddQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivities.AddCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
